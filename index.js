@@ -7,7 +7,7 @@ const productRoute = require("./routes/product");
 dotenv.config();
 
 mongoose
-  .connect("mongodb+srv://astitva:astitvapatle@ecommercedb.9oesmpp.mongodb.net/?retryWrites=true&w=majority")
+  .connect(process.env.MONGO_URL)
   .then(() => console.log("DB Connection Successfull!"))
   .catch((err) => {
     console.log(err);
