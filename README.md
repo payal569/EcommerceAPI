@@ -8,6 +8,10 @@ Node.js
 Express
 MongoDB Atlas
 ```
+##Setup 
+Firstly download the node modules by npm install
+Then, To run the server in backend run npm start. 
+To check API, use postman. 
 
 ## API Flow 
 Routes and models are defind in their respective folders. 
